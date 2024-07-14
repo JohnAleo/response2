@@ -1,9 +1,9 @@
 const http=require("http");
 const server= http.createServer((req, res) => {
 if (req.url === "/"){
-    res.end('<h1>Motor 1th response</h1>');
-} else if (req.url==="/Motors"){
-    res.end('<h1>Mercedes</h1> <br> <h1>Audi</h1> <br> <h1>Chevrolet</h1> <br> <h1>Porsche</h1>')
+    res.end('<h1>Caravan 1th response</h1>');
+} else if (req.url==="/Caravans"){
+    res.end('<h1>Black</h1> <br> <h1>Venom</h1> <br> <h1>Invader</h1> <br> <h1>Glory</h1>')
 } else {
     res.end('<h1>404 ERROR</h1>')
 }
